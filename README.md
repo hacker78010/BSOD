@@ -141,5 +141,5 @@ I welcome contributions from the community!
 This project is licensed under the **MIT License**. You are free to use, copy, and modify the code, provided the original disclaimer and author credits are included in your version.
 
 **Contact Information:**
-* **GitHub:** [@YOUR_USERNAME](https://github.com/hacker78010)
+* **GitHub:** [hacker78010](https://github.com/hacker78010)
 * **Website:** [https://github.com/hacker78010/]
