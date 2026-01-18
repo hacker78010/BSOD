@@ -25,7 +25,7 @@ If you don't want to compile the code yourself, download the compiled executable
 ## 📁 Repository Structure
 
 ### 1. ⚡ C# Method (Native API)
-Located in the `/exe_bsod` folder. This is the most advanced method using `ntdll.dll`.
+Located in the `crash app` folder. This is the most advanced method using `ntdll.dll`.
 * **Files:** `Program.cs`, `bsodcreator.csproj`, `App.config`.
 * **How it works:** It elevates process privileges to `SeDebugPrivilege` and marks the process as **Critical**. When the process terminates, Windows assumes a vital system component failed and triggers a `CRITICAL_PROCESS_DIED` BSOD.
 
