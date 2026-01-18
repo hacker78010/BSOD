@@ -4,7 +4,7 @@
 [![C#](https://img.shields.io/badge/Language-C%23-blue.svg)](https://docs.microsoft.com/en-us/dotnet/csharp/)
 [![C++](https://img.shields.io/badge/Language-C%2B%2B-red.svg)](https://visualstudio.microsoft.com/vs/features/cplusplus/)
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078d7.svg)](https://www.microsoft.com/windows)
-[![Research](https://img.shields.io/badge/Field-Cybersecurity-informational.svg)](https://github.com/YOUR_USERNAME)
+[![Research](https://img.shields.io/badge/Field-Cybersecurity-informational.svg)](https://github.com/hacker78010)
 
 Welcome to the most comprehensive repository for simulating system-level failures on Windows environments. This project is a specialized toolkit designed to demonstrate how the Windows NT Kernel handles critical process termination and security privileges.
 
@@ -22,14 +22,14 @@ This software is provided for **educational and research purposes only**. By usi
 ---
 
 ## 🚀 Quick Start Guide
-To begin testing immediately, navigate to the [Releases](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/releases) section and download the latest compiled bundle.
+To begin testing immediately, navigate to the [Releases](https://github.com/hacker78010/BSOD/releases) section and download the latest compiled bundle.
 
 | Asset | Description | Stability |
 | :--- | :--- | :--- |
-| `bsod_csharp.exe` | C# Implementation (.NET 4.7.2+) | High |
-| `bsod_cpp.exe` | Native C++ (No Dependencies) | Maximum |
-| `crash_script.bat` | Batch Scripting Method | Medium |
-| `crash_vbs.vbs` | VBScript Automation Method | Low |
+| `BsoDCreator.exe` | C# Implementation (.NET 4.7.2+) | High |
+| `BsodCreatorC++.exe.exe` | Native C++ (No Dependencies) | Maximum |
+| `crash.bat` | Batch Scripting Method | Medium |
+| `crash.vbs` | VBScript Automation Method | Low |
 
 ---
 
@@ -131,8 +131,8 @@ To observe a BSOD without risking your main PC, follow these steps:
 
 ## 🤝 Contributing & Feedback
 I welcome contributions from the community!
-* **Found a bug?** Open an [Issue](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/issues).
-* **Have a new method?** Submit a [Pull Request](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/pulls).
+* **Found a bug?** Open an [Issue](https://github.com/hacker78010/BSOD/issues).
+* **Have a new method?** Submit a [Pull Request](https://github.com/YOUR_USERNAME/BSOD/pulls).
 * **Show Support:** Give the project a ⭐ to help others find this research tool!
 
 ---
@@ -141,5 +141,5 @@ I welcome contributions from the community!
 This project is licensed under the **MIT License**. You are free to use, copy, and modify the code, provided the original disclaimer and author credits are included in your version.
 
 **Contact Information:**
-* **GitHub:** [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-* **Website:** [Your_Portfolio_Link]
+* **GitHub:** [@YOUR_USERNAME](https://github.com/hacker78010)
+* **Website:** [https://github.com/hacker78010/]
