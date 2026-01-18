@@ -18,7 +18,7 @@ A collection of scripts and tools to trigger a **Blue Screen of Death (BSOD)** o
 
 ## 🚀 Download Ready-to-Run Tool
 If you don't want to compile the code yourself, download the compiled executable from the Releases section:
-👉 **[Download BSOD Tool (.zip)](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/releases/latest)**
+👉 **[Download BSOD Tool (.zip)](https://github.com/hacker78010/BSOD/releases/tag/v1.0.0)**
 
 ---
 
